@@ -1,0 +1,12 @@
+package ecommerce;
+
+public class checkout extends browserfactory{
+	
+	@Test
+	public void checkout1()
+	{
+		
+	}
+	
+
+}

@@ -1,0 +1,15 @@
+package Redbusdemopkg;
+
+import org.testng.annotations.Test;
+
+public class bookseat extends browserfactory {
+
+	@Test
+	public void seatbooking()
+	{
+		
+		
+		
+	}
+	
+}

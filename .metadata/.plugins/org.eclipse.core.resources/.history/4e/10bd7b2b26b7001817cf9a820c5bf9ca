@@ -1,0 +1,20 @@
+package LogicDev;
+
+public class PatternPractice5 {
+
+	public static void main(String[] args) {
+		
+		// TODO Auto-generated method stub
+
+		int j ;
+		
+		j=30;
+		if(j%2==0)
+		{
+			System.out.print("NO");
+		}
+			
+			
+	}
+
+}

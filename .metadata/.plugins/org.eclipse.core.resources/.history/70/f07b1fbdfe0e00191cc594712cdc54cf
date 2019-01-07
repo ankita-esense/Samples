@@ -1,0 +1,31 @@
+package ecommerce;
+
+import org.openqa.selenium.By;
+import org.testng.annotations.Test;
+
+public class checkout extends browserfactory{
+	
+	@Test
+	public void checkout1()
+	{
+		
+		driver.findElement(By.xpath("//span[@class='user-link text-center']")).click();
+		driver.switchTo().frame(0);
+		driver.findElement(By.xpath("//span[@class='login_bottom_text_inner cursor']")).click();
+		driver.findElement(By.xpath("//input[@id='regFirstName']")).sendKeys("ankita");
+		driver.findElement(By.xpath("//input[@id='regLastName']")).sendKeys("vaishnav");
+		driver.findElement(By.xpath("//input[@id='regEmail']")).sendKeys("ansuya0909@gmail.com");
+		driver.findElement(By.xpath("//input[@id='regEmail']")).sendKeys("9724719197");
+		driver.findElement(By.xpath("//div[@class='react-datepicker__day react-datepicker__day--thu react-datepicker__day--keyboard-selected react-datepicker__day--today']")).click();
+		driver.findElement(By.xpath("//input[@id='regPassword']")).sendKeys("auction@123");
+		driver.findElement(By.xpath("//input[@id='regConPassword']")).sendKeys("auction@123");
+		driver.findElement(By.xpath("//span[@class='bigcheck-target']")).click();
+		driver.findElement(By.xpath("//button[contains(text(),'register')]")).click();
+		
+		
+		
+		
+	}
+	
+
+}

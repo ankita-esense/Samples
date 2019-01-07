@@ -1,0 +1,22 @@
+package LogicDev;
+
+public class PatternPractice4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		char ch;
+		
+		for(ch ='A'; ch <='Z';ch ++)
+		{
+			for(int j =0; j<=25; j++)
+			{
+				System.out.print("%d" + ch);	
+			}
+			
+			System.out.print("\n");
+		}
+			
+	}
+
+}

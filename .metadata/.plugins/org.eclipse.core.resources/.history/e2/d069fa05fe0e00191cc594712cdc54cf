@@ -1,0 +1,21 @@
+package ecommerce;
+
+import org.openqa.selenium.By;
+import org.testng.annotations.Test;
+
+public class checkout extends browserfactory{
+	
+	@Test
+	public void checkout1()
+	{
+		
+		driver.findElement(By.xpath("//span[@class='user-link text-center']")).click();
+		driver.switchTo().frame(0);
+		driver.findElement(By.xpath("//span[@class='login_bottom_text_inner cursor']")).click();
+		
+		
+		
+	}
+	
+
+}

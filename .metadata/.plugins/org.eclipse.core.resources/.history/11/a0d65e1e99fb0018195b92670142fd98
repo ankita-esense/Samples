@@ -1,0 +1,17 @@
+package DemoS;
+
+public class realprime {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int num =56;
+		
+		for(int i=2;i<=num;i++)
+		{
+			
+		}
+		
+	}
+
+}

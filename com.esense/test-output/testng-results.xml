@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27912" started-at="2018-12-17T02:04:02Z" finished-at="2018-12-17T02:04:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="27912" started-at="2018-12-17T02:04:02Z" finished-at="2018-12-17T02:04:30Z">
+      <class name="com.testcase.verifydashboard">
+        <test-method status="PASS" signature="setup()[pri:1, instance:com.testcase.verifydashboard@16a51ab]" name="setup" duration-ms="20768" started-at="2018-12-17T07:34:02Z" finished-at="2018-12-17T07:34:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyDashboard()[pri:2, instance:com.testcase.verifydashboard@16a51ab]" name="verifyDashboard" duration-ms="7119" started-at="2018-12-17T07:34:23Z" finished-at="2018-12-17T07:34:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDashboard -->
+      </class> <!-- com.testcase.verifydashboard -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

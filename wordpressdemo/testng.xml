@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Wordpress" verbose="1" >
+
+  <test name="Regression1">
+    <classes>
+      <class name="com.wordpresstestcases.verifylogin"/>
+      <class name="com.wordpresstestcases.verifydashboard"/>
+    </classes>
+  </test>
+</suite>
